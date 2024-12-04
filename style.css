@@ -95,7 +95,7 @@ h3{
 .info-master{
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     
 }
 
@@ -106,18 +106,36 @@ h3{
 
 .info-container p{
     text-align: center;
+margin: auto;
+justify-self: flex-end;
 }
 
 .testimonial{
     background-color: #e5e7eb;
-    
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
 }
 
 p.testimonial-text{
     color:#1f2937;
     font-size: 36px;
-    font-weight: light;
+    font-weight:300;
     font-style: italic;
-    
+    width: 60%;
+    margin: auto;
+  
 }
 
+.author{
+    justify-self: flex-end;
+    text-align: end;
+
+    margin-right: 20%;
+    font-weight: bold;
+}
+
+footer{
+    
+}
