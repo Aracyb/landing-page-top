@@ -1,7 +1,3 @@
-*{
-    border: 1px solid rgb(255, 0, 0);
-    }
-
 
 
 body{
@@ -34,6 +30,10 @@ header a {
     text-decoration: none;
     color: #f9faf8;
   }
+
+.header-btn{
+    margin-top: 15px;
+}
   
 .main-container{
     background-color: #1f2937;
@@ -96,7 +96,11 @@ h3{
     display: flex;
     justify-content: center;
     gap: 20px;
-    
+    padding-bottom: 40px;
+}
+
+.info-master p{
+    margin-top: 10px;
 }
 
 .info-container img{
@@ -106,8 +110,9 @@ h3{
 
 .info-container p{
     text-align: center;
-margin: auto;
+margin: 10px auto;
 justify-self: flex-end;
+color: rgb(85, 85, 85);
 }
 
 .testimonial{
@@ -137,5 +142,46 @@ p.testimonial-text{
 }
 
 footer{
+    width:70%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    margin: 100px auto;
+    justify-self: center;
+
+    border: 10px solid #3882f6;
+    color:#e5e7eb;
+    background-color: #3882f6;
+    border-radius: 20px;
     
+}
+
+.callto {
+    /* ... other styles ... */
+    display: flex;       /* Enable flexbox for .callto */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Center items horizontally */
+    text-align: left;  /* Center the text within each element */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  
+}
+
+.callto p{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 200;
+    font-size: 20px;
+
+}
+
+.callto h2{
+    font-size: 30px;
+}
+
+footer button{
+    border-color: #e5e7eb;
 }
